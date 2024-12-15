@@ -89,69 +89,98 @@
 
     <script>
         const physicsSyllabus = [
-            {
-                chapterNumber: "1",
-                chapter: "Sound Waves and Acoustics",
-                topics: [
-                    "Sound wave propagation in air",
-                    "Wave characteristics",
-                    "Doppler effect principles",
-                    "Sound absorption mechanisms",
-                    "Reverberation concepts",
-                    "Sabine's formula applications"
-                ]
-            },
-            {
-                chapterNumber: "2",
-                chapter: "Solid State Physics",
-                topics: [
-                    "Energy band formation",
-                    "Quantum mechanical band theory",
-                    "Kronig-Penny model",
-                    "Energy-wave vector diagrams",
-                    "Fermi-Dirac distribution",
-                    "Fermi energy levels",
-                    "Conductor-semiconductor classification"
-                ]
-            },
-            {
-                chapterNumber: "3",
-                chapter: "Superconductivity",
-                topics: [
-                    "Superconductor properties",
-                    "Magnetic field interactions",
-                    "Meissner effect",
-                    "Isotopic mass effect",
-                    "Type I and Type II superconductors",
-                    "Advanced applications"
-                ]
-            },
-            {
-                chapterNumber: "4",
-                chapter: "Optics and Lasers",
-                topics: [
-                    "Laser physics fundamentals",
-                    "Einstein radiation theory",
-                    "Laser type classifications",
-                    "He-Ne laser mechanics",
-                    "Fiber optics principles",
-                    "Total internal reflection",
-                    "Optical fiber technology"
-                ]
-            },
-            {
-                chapterNumber: "5",
-                chapter: "Advanced Measurement Techniques",
-                topics: [
-                    "Four-probe measurement",
-                    "Van der Pauw technique",
-                    "Hall effect measurement",
-                    "UV-Vis spectroscopy",
-                    "Electron microscopy techniques",
-                    "Surface analysis methods"
-                ]
-            }
-        ];
+    {
+        chapterNumber: "1",
+        chapter: "Sound",
+        topics: [
+            "Sound waves in air: Properties and characteristics",
+            "Doppler effect: Principles and applications",
+            "Sound absorption and reverberation",
+            "Sabine's formula: Usage and applications (excluding derivations)",
+            "Acoustics of buildings: Principles and design considerations",
+            "Properties of ultrasonic waves",
+            "Production of ultrasonic waves: Magnetostriction method",
+            "Production of ultrasonic waves: Piezoelectric method",
+            "Piezoelectric oscillator: Working principle",
+            "Acoustical grating method",
+            "Applications of ultrasound in various industries",
+            "Non-destructive testing: Techniques and benefits"
+        ]
+    },
+    {
+        chapterNumber: "2",
+        chapter: "Band Theory of Solids",
+        topics: [
+            "Introduction to band theory",
+            "Formation of bands and energy gaps",
+            "Quantum mechanical approach",
+            "Kronig-Penny Model: Explanation and applications",
+            "Energy band formation in solids",
+            "Fermi-Dirac Distribution Function",
+            "Fermi energy level and its significance",
+            "Classification of solids: Conductors, semiconductors, insulators",
+            "Concept of effective mass in solids"
+        ]
+    },
+    {
+        chapterNumber: "3",
+        chapter: "Superconductivity",
+        topics: [
+            "Introduction to superconductivity",
+            "Properties of superconductors",
+            "Effect of magnetic fields on superconductors",
+            "Meissner effect and its implications",
+            "Isotopic mass effect in superconductors",
+            "Type I and Type II superconductors: Differences and examples",
+            "Applications of superconductors: MagLev trains, Cryotron, SQUID"
+        ]
+    },
+    {
+        chapterNumber: "4",
+        chapter: "Nonlinear Optics",
+        topics: [
+            "Properties of lasers",
+            "Einstein's theory of matter radiation: A and B coefficients",
+            "Different types of lasers and their uses",
+            "He-Ne laser: Working principles",
+            "Applications of lasers in science and engineering",
+            "Fiber optics: Introduction and significance",
+            "Construction of optical fiber cables",
+            "Total internal reflection in fiber optics",
+            "Equation of numerical aperture",
+            "Classification of optical fibers",
+            "Advantages and applications of optical fibers"
+        ]
+    },
+    {
+        chapterNumber: "5",
+        chapter: "Measurement Techniques",
+        topics: [
+            "Introduction to advanced measurement techniques",
+            "Four-probe technique for resistivity measurement",
+            "Van der Pauw technique",
+            "Hall effect measurement and applications",
+            "UV-Vis spectroscopy: Principles and uses",
+            "Scanning electron microscopy (SEM): Functionality and applications",
+            "Transmission electron microscopy (TEM): Principles and advantages"
+        ]
+    },
+    {
+        chapterNumber: "6",
+        chapter: "Engineering Materials",
+        topics: [
+            "Nanomaterials: Introduction and properties",
+            "Synthesis of nanomaterials: Physical vapor transport method",
+            "Applications of nanomaterials in quantum computing",
+            "Shape memory alloys: Structure and properties",
+            "Shape memory alloys: Applications in industries",
+            "Metallic glasses: Properties and manufacturing",
+            "Melt spinning technique for metallic glasses",
+            "Applications of metallic glasses",
+            "Bio-materials: Properties and applications"
+        ]
+    }
+];
 
         class TopicTracker {
             constructor(syllabus) {
